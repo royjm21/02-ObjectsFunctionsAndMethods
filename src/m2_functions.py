@@ -114,23 +114,20 @@ def turtle4():
     dad.forward(250)
 
     dad.begin_fill()
-    dad.draw_regular_polygon(5,150)
+    dad.draw_regular_polygon(5, 150)
     dad.end_fill()
 
 
 def turtle5():
     mom = rg.SimpleTurtle()
     mom.speed = 22
-    mom.pen = rg.Pen("red",22)
+    mom.pen = rg.Pen("red", 22)
     mom.forward(125)
     mom.right(90)
     mom.forward(125)
     mom.begin_fill()
-    mom.draw_regular_polygon(6,66)
+    mom.draw_regular_polygon(6, 66)
     mom.end_fill()
-
-
-
 ###############################################################################
 #
 # Done: 3.
@@ -262,3 +259,4 @@ def turtle5():
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------
 main()
+

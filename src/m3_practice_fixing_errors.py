@@ -47,7 +47,7 @@ def print_math():
     print(x)
 
     y = math.sin(math.pi)
-    print('The sine of PI is, y')
+    print('The sine of PI is:', y)
 
 
 def turtle_fun():
@@ -62,7 +62,7 @@ def turtle_fun():
     alan.pen = rg.Pen('blue', 30)
     alan.paint_bucket = rg.PaintBucket('yellow')
 
-    alan.back(3 * (47 + 16)
+    alan.backward(3*(47 + 16))
     alan.begin_fill()
     alan.draw_circle(25)
     alan.end_fill()
